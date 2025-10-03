@@ -1,0 +1,33 @@
+{
+  "notifications": [
+    {
+      "id": "n1",
+      "type": "timesheet_submitted",
+      "title": "Timesheet Submitted",
+      "message": "Sarah Johnson submitted timesheet for week 09/23-09/29",
+      "timestamp": "2025-09-29T18:00:00Z",
+      "read": false
+    },
+    {
+      "id": "n2",
+      "type": "exceed_limit",
+      "title": "Daily Limit Exceeded",
+      "message": "Michael Brown exceeded daily limit of 10 hours",
+      "timestamp": "2025-09-28T19:30:00Z",
+      "read": false
+    },
+    {
+      "id": "n3",
+      "type": "timesheet_approved",
+      "title": "Timesheet Approved",
+      "message": "Your timesheet for week 09/23-09/29 has been approved",
+      "timestamp": "2025-09-30T09:00:00Z",
+      "read": true
+    }
+  ],
+  "preferences": {
+    "webPush": true,
+    "mobile": true,
+    "email": false
+  }
+}

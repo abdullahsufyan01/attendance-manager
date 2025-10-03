@@ -1,0 +1,72 @@
+{
+  "company": {
+    "companyName": "Acme Corporation",
+    "companyCode": "ACME2025",
+    "companyId": "CID-987654",
+    "industry": "Technology",
+    "country": "United States",
+    "branches": [
+      { "name": "New York", "manager": "John Smith" },
+      { "name": "Los Angeles", "manager": "Jane Doe" },
+      { "name": "Chicago", "manager": "David Wilson" }
+    ],
+    "timeZone": "America/New_York",
+    "dateFormat": "MM/DD/YYYY",
+    "timeFormat": "12h",
+    "lengthFormat": "feet",
+    "primaryColor": "#3b82f6"
+  },
+  "billing": {
+    "currentPlan": "Operations Hub + HR Hub",
+    "seats": 30,
+    "cardLast4": "4242",
+    "invoices": [
+      {
+        "id": "inv_001",
+        "date": "2025-09-01",
+        "type": "Subscription",
+        "plan": "Operations Hub",
+        "amount": 499,
+        "status": "Paid"
+      },
+      {
+        "id": "inv_002",
+        "date": "2025-08-01",
+        "type": "Subscription",
+        "plan": "Operations Hub",
+        "amount": 499,
+        "status": "Paid"
+      }
+    ]
+  },
+  "payroll": {
+    "workDays": 5,
+    "defaultDailyHours": 8,
+    "dailyLimit": 10,
+    "autoClockOut": true,
+    "payrollCycle": "monthly",
+    "payrollEndDate": "last_day",
+    "overnightShiftRule": "next_day",
+    "timesheetApprovalRequired": true,
+    "approvers": ["super_admin", "manager"]
+  },
+  "geolocation": {
+    "mode": "clock-in-out",
+    "geoFences": [
+      {
+        "id": "gf1",
+        "name": "New York Office",
+        "lat": 40.7128,
+        "lng": -74.006,
+        "radius": 100
+      },
+      {
+        "id": "gf2",
+        "name": "Los Angeles Office",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "radius": 150
+      }
+    ]
+  }
+}
